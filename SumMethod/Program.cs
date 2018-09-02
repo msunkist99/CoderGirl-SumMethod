@@ -2,11 +2,14 @@
 
 namespace SumMethod
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Console.ReadLine();
         }
+
+        // TODO: Create a method that returns the sum of all integer numbers up to and including given value. 
+        // Use the equation (n * (n + 1)) / 2.
     }
 }
