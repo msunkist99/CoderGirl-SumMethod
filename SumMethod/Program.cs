@@ -6,7 +6,7 @@ namespace SumMethod
     {
         public static void Main()
         {
-            int sum = SumMethod(100);
+            int sum = Sum(100);
             Console.WriteLine("The sum is -- " + sum);
 
             Console.ReadLine();
@@ -15,7 +15,7 @@ namespace SumMethod
         // TODO: Create a method that returns the sum of all integer numbers up to and including given value. 
         // Use the equation (n * (n + 1)) / 2.
 
-        private static int SumMethod(int n)
+        public static int Sum(int n)
         {
             int sum = (n * (n + 1)) / 2;
 
